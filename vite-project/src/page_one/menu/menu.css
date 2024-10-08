@@ -1,0 +1,69 @@
+.menu{
+    width: 100vw;
+    height: 50vh;
+}
+.container-menu{
+    width: 70vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+.title-menu{
+    width: 8vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-menu p{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title-menu img{
+    width: 60px;
+    height: 3px;
+}
+.main-text-menu{
+    width: 55vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.main-text-menu p:first-child{
+    font-size: 64px;
+    font-weight: 700;
+    width: 200px;
+}
+.main-text-menu p:last-child{
+    font-size: 18px;
+    width: 500px;
+}
+.cards{
+    width: 100vw;
+    height: 40vh;
+}
+.container-cards{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.title-first-card, .title-second-card{
+    width: 280px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-first-card img, .title-second-card img{
+    width: 60px;
+    height: 3px;
+}
+.title-first-card p, .title-second-card p{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

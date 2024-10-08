@@ -1,0 +1,41 @@
+.about{
+    width: 100vw;
+    height: 50vh;
+}
+.container-about{
+    width: 70vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+.title-about{
+    width: 12vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-about p{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title-about img{
+    width: 60px;
+    height: 3px;
+}
+.main-text-about{
+    width: 55vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.main-text-about p:first-child{
+    font-size: 64px;
+    font-weight: 700;
+    width: 200px;
+}
+.main-text-about p:last-child{
+    font-size: 18px;
+    width: 500px;
+}

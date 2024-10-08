@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Circe-Regular";
+    src: url(../../Circe-Regular.ttf);
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Circe-Regular", sans-serif;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/background-header.png);
+    display: flex;
+}
+.left-menu{
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(51, 51, 51, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-for-logo-burger{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.socials{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials img{
+    width: 40px;
+    height: 40px;
+}
+.main-header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    width: 85vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-container{
+    width: 30vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+nav button{
+    width: 145px;
+    height: 42px;
+    background-color: rgba(181, 149, 113, 1);
+    border: none;
+    color: white;
+    font-family: "Circe-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.bottom-text-header{
+    width: 70vw;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    align-items: end;
+}
+.bottom-text-header p{
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+}
