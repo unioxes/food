@@ -1,0 +1,110 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.modal__content{
+    width: 420px;
+    height: 570px;
+    background-color: rgba(51, 51, 51, 1);
+    transform: scale(0.5);
+    transition: 0.4s all;
+}
+.modal.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.modal__content.active{
+    transform: scale(1);
+}
+.modal-container{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-container img{
+    width: 80px;
+    height: 46px;
+}
+.modal-container p{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.top-inputs input{
+    width: 250px;
+    height: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    padding: 20px;
+    opacity: 30%;
+    outline: none;
+}
+.top-inputs input::placeholder{
+    color: white;
+    font-size: 16px;
+    opacity: 100%;
+    font-family: "Circe-Regular", sans-serif;
+}
+.top-inputs{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom-inputs input{
+    width: 90px;
+    height: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    padding: 20px;
+    opacity: 30%;
+    outline: none;
+}
+.bottom-inputs{
+    width: 295px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.bottom-inputs input::placeholder{
+    color: white;
+    font-size: 16px;
+    opacity: 100%;
+    font-family: "Circe-Regular", sans-serif;
+}
+.book{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(181, 149, 113, 1);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Circe-Regular", sans-serif;
+}
+.top-inputs input:focus{
+    font-size: 16px;
+    color: white;
+    font-family: "Circe-Regular", sans-serif;
+
+}
+.bottom-inputs input:focus{
+    font-size: 16px;
+    color: white;
+    font-family: "Circe-Regular", sans-serif;
+}
